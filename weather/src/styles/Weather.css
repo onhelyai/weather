@@ -1,0 +1,40 @@
+@font-face {
+    font-family: DM_Sans;
+    src: url(/home/onhel-yai/Internship/weather/weather/public/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf);
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-paragraph{
+    margin: 30px;
+    font-size: 48px;
+    font-family: DM_Sans;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.search-input{
+    width: 400px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.search-button{
+    background-color: hsl(233, 67%, 56%);
+    height: 35px;
+    border-radius: 8px;
+    width: 70px;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}

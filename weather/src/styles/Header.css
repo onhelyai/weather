@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 100px;
+}
+
+
+.imgs{
+    width: 15px;
+    height: 15px;
+}
+
+.units-button{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

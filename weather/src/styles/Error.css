@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Bricolage;
+    src: url(weather/public/assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf)
+}
+
+@font-face {
+    font-family: DM_Sans;
+    src: url(/home/onhel-yai/Internship/weather/weather/public/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf);
+}
+
+
+.error-msgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.error-img{
+    width: 30px;
+    height: 30px;
+}
+
+.error-msg1{
+    font-family: DM_Sans;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    font-size: 38px;
+    padding: 25px 0px;
+}
+
+.error-msg2{
+    font-family: DM_Sans;
+    color: hsl(0, 0%, 100%);
+    width: 370px;
+    padding-bottom: 25px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.retry-button{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
