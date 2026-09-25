@@ -1,0 +1,46 @@
+.town-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.added-informations{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 130px);
+    margin-top: 25px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+
+.town-details p{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.element{
+    background-color: hsl(243, 27%, 20%);
+    width: 137px;
+    height: 80px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.town-weather{
+    width: 80%;
+}
+
+.days-container{
+    display: flex;
+    gap: 8px;
+}
+
+.day{
+    background-color: hsl(243, 27%, 20%);
+    border-radius: 8px;
+    width: 86px;
+    height: 90px;
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: DM_Sans;
+    src: url(/home/onhel-yai/Internship/weather/weather/public/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf);
+}
+
+.hourly-forecast{
+    background-color: hsl(243, 27%, 20%);
+    border-radius: 8px;
+    width: 230px;
+    height: 474px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.first-line{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+}
+
+.days-button{
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 10px;
+}
+
+.hours-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hour{
+    background-color: hsl(243, 23%, 30%);
+    margin: 10px 0px;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    border-radius: 8px;
+}
