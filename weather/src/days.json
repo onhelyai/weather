@@ -1,0 +1,23 @@
+[
+    {
+        "day": "Monday", "selected": true
+    },
+    {
+        "day": "Tuesday", "selected": true
+    },
+    {
+        "day": "Wednesday", "selected" :true
+    },
+    {
+        "day": "Thursday", "selected": true
+    },
+    {
+        "day": "Friday", "selected": true
+    },
+    {
+        "day": "Saturday", "selected": true
+    },
+    {
+        "day": "Sunday", "selected": true
+    }
+]

@@ -1,0 +1,7 @@
+.selected{
+    background-color: hsl(240, 6%, 70%);
+}
+
+.not-selected{
+    background-color: red;
+}
